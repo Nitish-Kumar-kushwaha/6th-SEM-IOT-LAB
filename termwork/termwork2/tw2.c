@@ -1,10 +1,11 @@
-#include'at89c51ed2.h'
-void delay(unsinged int );
+#include "at89c51ed2.h"
+void delay(unsigned int);
 void main(void){
 	while(1){
-		p0 = 0x00;
+		P0 = 0x00;
 		delay(200);
-		p0 = 0xff;
+		
+		P0 = 0xff;
 		delay(200);
 	}
 }
